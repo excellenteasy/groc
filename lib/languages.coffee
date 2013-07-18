@@ -60,6 +60,12 @@ module.exports = LANGUAGES =
     pygmentsLexer:     'javascript'
     singleLineComment: ['//']
 
+  LESS:
+    nameMatchers:      ['.less']
+    pygmentsLexer:     'sass'
+    singleLineComment: ['//']
+    ignorePrefix:      '}'
+
   LaTeX:
     nameMatchers:      ['.tex', '.latex', '.sty']
     pygmentsLexer:     'latex'
