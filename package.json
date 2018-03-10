@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "coffee-script": ">= 1.1.3",
-    "colors":        ">= 0.5.1",
+    "colors":        ">=1.2.0",
     "fs-tools":      ">= 0.1.0",
     "glob":          ">= 3.0.1",
     "jade":          ">= 0.17.0",
